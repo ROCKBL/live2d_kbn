@@ -1,6 +1,10 @@
 # live2d_kbn
 看板娘-血小板
 
+python  flask环境下：
+进入static
+git clone https://github.com/ROCKBL/live2d_kbn.git
+在要显示的模板页面中插入下列代码
 
 ```
 	<link rel="stylesheet" href="{{ url_for('static',filename='live2d_xxb/css/waifu.css') }}" />
@@ -20,3 +24,5 @@
 	    })
 	</script>
 ```
+
+如果要在其他环境下使用修改资源路径
